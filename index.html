@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI - Homework</title>
+</head>
+
+<body>
+
+    <h1>
+        Challenge #2: Remote Communications (Zoom and Microsoft Teams)
+    </h1>
+    <h2>Team: Blana Claudiu Andrei, Sofron Radu, Vasilescu Stefan</h2>
+
+    <ol>
+        <li>
+            <h2>Affordances, visual variables, interaction flow</h2>
+            <ul>
+                <div><b>Use case: A teacher who wants to deliver an academic presentation to his students.</b></div>
+                <h3>Zoom</h3>
+                <ol>
+                    <li>Affordances</li>
+                    <ul>
+                        <li>
+                            Create meetings: Teacher can easily host meetings.
+                        </li>
+                        <li>
+                            Accept persons: Teacher can easily accept persons in the meeting.
+                        </li>
+                        <li>Screen sharing: The teacher can share their screens or specific applications with
+                            participants (students or other academic persons).
+                        </li>
+                        <li>Audio and video controls: The teacher (being the host) can mute/unmute audio and
+                            enable/disable video
+                            during meetings. Any user can manage their audio and video settings during
+                            meetings.
+                        </li>
+                        <li>Chat and reactions: The teacher can send text messages and use emoji reactions
+                            during meetings.
+                        </li>
+                        <li>Whiteboards: Teacher can easily access a whiteboard.</li>
+                    </ul>
+                    <li>Visual variables</li>
+                    <ul>
+                        <li>
+                            Participants grid view: Displays multiple participants in a grid layout, ideal for group
+                            discussions.
+                        </li>
+                        <li>
+                            Speaker view: Highlights the active speaker in a larger, bordered frame, focusing on the
+                            person talking.
+                        </li>
+                        <li>
+                            Presentation mode: Prioritizes shared content, making it the primary focus during
+                            presentations.
+                        </li>
+                    </ul>
+                    <li>Interaction flow</li>
+                    <ul>
+                        <li>
+                            Creating a meeting.
+                        </li>
+                        <li>
+                            Sending the link to the others.
+                        </li>
+                        <li>
+                            Accepting the users in the meeting.
+                        </li>
+                        <li>
+                            Using the appropiate tools for delivering the desired presentation.
+                        </li>
+                        <li>
+                            End the meeting.
+                        </li>
+                    </ul>
+                </ol>
+                <h3>Teams</h3>
+                <ol>
+                    <li>Affordances</li>
+                    <ul>
+                        <li>
+                            Create and join meetings: Teacher can schedule and host meetings within the Teams
+                            platform.
+                        </li>
+                        <li>
+                            Screen sharing: Presenters can share their screens, specific applications, or PowerPoint
+                            presentations.
+                        </li>
+                        <li>
+                            Audio and video controls: Users can manage their audio and video settings during
+                            meetings.
+                        </li>
+                        <li>
+                            Chat and reactions: Participants can send messages and use emoji reactions during
+                            meetings.
+                        </li>
+                        <li>
+                            Integration with Office 365 applications: Seamlessly integrate with other Microsoft
+                            applications
+                            like Word, Excel, and PowerPoint.
+                        </li>
+                    </ul>
+                    <li>Visual variables</li>
+                    <ul>
+                        <li>
+                            Gallery view: Displays multiple participants in a grid layout, similar to Zoom's
+                            participant grid
+                            view.
+                        </li>
+                        <li>
+                            Large gallery view: Displays even more participants in a grid layout, suitable for
+                            larger
+                            meetings.
+                        </li>
+                        <li>
+                            Presentation mode: Prioritizes shared content, making it the primary focus during
+                            presentations.
+                        </li>
+                    </ul>
+                    <li>Interaction flow</li>
+                    <ul>
+                        <li>
+                            Creating a meeting.
+                        </li>
+                        <li>
+                            Sending the link to the others / appointing a meeting in participants' calendar.
+                        </li>
+                        <li>
+                            Using the appropiate tools / Microsoft tools for delivering the desired presentation.
+                        </li>
+                        <li>
+                            End the presentation: hosts can end the meeting for all participants or leave
+                            individually.
+                        </li>
+                    </ul>
+                </ol>
+            </ul>
+        </li>
+        <li>
+            <h2>Comparing visual metaphors, idioms + suggestions for a text-only interaction</h2>
+            <ol>
+                <li>User Interface:</li>
+                <ul>
+                    <li>
+                        Zoom: Simple and clean interface with meeting controls at the bottom and video tiles/grid view.
+                    </li>
+                    <li>
+                        Teams: More complex interface with a sidebar for navigation, tabs for channels, and meeting
+                        controls at
+                        the top.
+                    </li>
+                    <li>
+                        Text-only equivalent: For a text-only interaction, maintain simplicity like Zoom by having a
+                        clean
+                        interface, with basic controls for text formatting and navigation at the top or bottom.
+                    </li>
+                </ul>
+                <li>Joining a meeting:</li>
+                <ul>
+                    <li>
+                        Zoom: Users can join a meeting via a link or by entering a meeting ID and optional passcode.
+                    </li>
+                    <li>
+                        Teams: Users can join a meeting via a link, calendar invite, or through the Teams app itself.
+                    </li>
+                    <li>
+                        Text-only equivalent: Provide a simple way to join a text-based chat room via a link, ID, or
+                        directly
+                        through the platform.
+                    </li>
+                </ul>
+                <li>Reactions and emojis:</li>
+                <ul>
+                    <li>
+                        Zoom: Offers limited reactions (e.g., thumbs up, clapping) during a meeting.
+                    </li>
+                    <li>
+                        Teams: Offers a wider range of reactions and emojis, including custom emojis.
+                    </li>
+                    <li>
+                        Text-only equivalent: Implement a comprehensive set of emojis and reactions that users can
+                        easily access and
+                        use in text-based conversations.
+                    </li>
+                </ul>
+                <li>Chat:</li>
+                <ul>
+                    <li>
+                        Zoom: Has a chat panel that supports text, file sharing, and code snippets.
+                    </li>
+                    <li>
+                        Teams: Provides a more advanced chat experience with threaded conversations, rich text
+                        formatting, and
+                        integration with other apps.
+                    </li>
+                    <li>
+                        Text-only equivalent: Design a chat system that supports threaded conversations, rich text
+                        formatting, and
+                        easy file sharing.
+                    </li>
+                </ul>
+                <li>Breakout rooms (small group discussions):</li>
+                <ul>
+                    <li>
+                        Zoom: Allows the host to create breakout rooms and assign participants manually or
+                        automatically.
+                    </li>
+                    <li>
+                        Teams: Requires users to pre-configure channels or meeting rooms for smaller group discussions.
+                    </li>
+                    <li>
+                        Text-only equivalent: Offer an easy way to create sub-chat rooms or channels for smaller group
+                        discussions
+                        within the text-based platform.
+                    </li>
+                </ul>
+            </ol>
+        </li>
+        <li>
+            <h2>Cognitive overload in special conditions/contexts</h2>
+            <ol>
+                <li>Zoom</li>
+                <ul>
+                    <li>Context: creating a meeting. In Zoom it's quite simple to create a meeting. Steps:</li>
+                    <ul>
+                        <li>
+                            Sign in, click "New Meeting" or schedule a meeting in advance.
+                        </li>
+                        <li>
+                            The app generates a meeting ID, a password and a link. The host can send only the link, or
+                            both the ID and password to the users in order to connect.
+                        </li>
+                    </ul>
+                    <p><b>Cognitive overload: very minimal.</b></p>
+                    <li>Context: share screening. Steps: </li>
+                    <ul>
+                        <li>
+                            Click "Share Screen" button at the bottom of the meeting window.
+                        </li>
+                        <li>
+                            Choose the desired application or the entire screen to be shared.
+                        </li>
+                    </ul>
+                    <p><b>Cognitive overload: minimal.</b></p>
+                </ul>
+                <li>Teams</li>
+                <ul>
+                    <li>Context: creating a meeting. Steps:</li>
+                    <ul>
+                        <li>Integrated with Office 365, sign in to Teams app.</li>
+                        <li>Create meeting from the calendar or directly in a channel.</li>
+                        <li>Fill out meeting details (title, attendees, date, time, etc.).</li>
+                        <li>Set meeting options (channel, recurrence, etc.).</li>
+                    </ul>
+                    <p><b>
+                            Cognitive overload: complexity of meeting options, requires familiarity with Teams
+                            interface.
+                        </b></p>
+                    <li>Context: share screening. Steps:</li>
+                    <ul>
+                        <li>Click "Share" button in the meeting control bar.</li>
+                        <li>Choose the desired application, the entire screen or the PowerPoint file.</li>
+                        <li>Presenters can give control to other participants.</li>
+                    </ul>
+                    <p><b>
+                            Cognitive overload: pretty minimal, similar to Zoom, but with added option to share
+                            PowerPoint files
+                            directly.
+                        </b></p>
+                </ul>
+            </ol>
+        </li>
+        <li>
+            <h2>Improvements</h2>
+            <ol>
+                <li>
+                    <div>
+                        <b>UI/UX problem identified</b>: Cluttered UI - The user interface of both Zoom and Teams mobile
+                        can be
+                        overwhelming with too many buttons, options, and menus on the screen.
+                    </div>
+                    <div><b>Solutions suggested:</b></div>
+                    <ul>
+                        <li>
+                            Simplify the UI by grouping similar features together.
+                        </li>
+                        <li>
+                            Allow users to customize their interface by hiding or rearranging elements they don't use
+                            often.
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <div>
+                        <b>UI/UX problem identified</b>: Inconsistent UX across platforms - The user experience of Zoom
+                        and
+                        Teams can differ significantly between web and mobile versions.
+                    </div>
+                    <div><b>Solutions suggested:</b></div>
+                    <ul>
+                        <li>
+                            Ensure a consistent design across both platforms (Web + Mobile) for easy recognition.
+                        </li>
+                        <li>
+                            Implement responsive design principles that adapt to different screen sizes.
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <div>
+                        <b>UI/UX problem identified</b>: Limited Customization Options - Both Zoom and Teams offer
+                        limited
+                        customization options in terms of branding or
+                        personalization.
+                    </div>
+                    <div><b>Solutions suggested:</b></div>
+                    <ul>
+                        <li>
+                            Allow organizations to customize the interface with their own logos or colors to create a
+                            more cohesive brand
+                            experience.
+                        </li>
+                        <li>
+                            Give individual users more control over how they interact with the application by allowing
+                            them to customize settings
+                            such as notification preferences or default meeting layouts.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <h2>Empiric laws</h2>
+            <div>
+                For remote communication applications like Teams and Meets, the empiric laws of Fitts', Hick's, and
+                Steering
+                can be adapted to the context of multi-device interaction in the following ways:
+            </div>
+            <br>
+            <ol>
+                <li>
+                    Fitts' Law: This law states that the time required to reach a target is determined by its size and
+                    distance from the starting point. In multi-device interaction scenarios, users may have multiple
+                    targets on
+                    different devices they need to interact with simultaneously. To adapt Fitts' Law in this context,
+                    designers
+                    should consider not only the size and distance of each target but also their relative importance or
+                    priority.
+                </li>
+                <br>
+                <li>
+                    Hick's Law: This law states that increasing the number of choices increases decision time
+                    logarithmically. In multi-device interaction scenarios, users may face more choices as they switch
+                    between
+                    devices or apps. To adapt Hick's Law in this context, designers should aim to minimize unnecessary
+                    choices
+                    or steps in device switching and provide clear cues for users when making decisions.
+                </li>
+                <br>
+                <li>
+                    Steering Law: This law states that movement towards a target is influenced by its size and proximity
+                    to
+                    other objects. In multi-device interaction scenarios, users may need to navigate complex interfaces
+                    with
+                    multiple targets on different devices at once. To adapt Steering Law in this context, designers
+                    should
+                    consider how visual feedback can help guide user movements across devices while minimizing errors
+                    caused by
+                    accidental touches or clicks on unintended targets.
+                </li>
+            </ol>
+        </li>
+        <li>
+            <h2>New features</h2>
+            <ol>
+                <li><b>A camera-bot - for Zoom</b></li>
+                <ul>
+                    <li>
+                        a bot assistant designed to monitor online meetings and ensure that all participants have their
+                        cameras turned on
+                    </li>
+                    <li>
+                        once it is activated, the bot detects any participant in the meeting who does not have his / her
+                        camera on and removes him / she from the meeting
+                    </li>
+                    <li>
+                        this new feature will be available just for the host of the meeting
+                    </li>
+                    <li>
+                        <b>Implementation:</b>
+                        <ul>
+                            <li>
+                                This option will be placed in the "Participants" window. <b>Steps</b>:
+                                <br>
+                                <br>
+                                <img src="sketches/Camera-bot.png">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <li><b>A voice-modifier - for Zoom</b>
+                </li>
+                <ul>
+                    <li>
+                        a bot assistant designed to modify your voice in real time
+                    </li>
+                    <li>
+                        once it is activated, any user has multiple options for changing his / her voice: boy voice,
+                        girl voice, elder voice, alien voice
+                    </li>
+                    <li>
+                        this new feature will be available for anyone in the meeting, but only if the host enables it
+                    </li>
+                    <li>
+                        <b>Implementation:</b>
+                        <ul>
+                            <li>
+                                For host: the option will be disabled by default. The host can enable it by entering the
+                                "Participants" window. (As it was with <em>Camera-Bot</em>)
+                                <br>
+                                <img src="sketches/Voice-modifier-for-host.png">
+                            </li>
+                            <br>
+                            <br>
+                            <li>
+                                For anyone: if host enables the <em>voice modifier</em> option, the participants can use
+                                it by entering the "Microphone options" window.
+                                <b>Steps:</b>
+                                <br>
+                                <br>
+                                <img src="sketches/Voice-modifier.png">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <li><b>An option to restrict who can acces your meeting - for Zoom</b></li>
+                <ul>
+                    <li>
+
+                    </li>
+                </ul>
+
+            </ol>
+        </li>
+    </ol>
+
+</body>
+
+</html>
