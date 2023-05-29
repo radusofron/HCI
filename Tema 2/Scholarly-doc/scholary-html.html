@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Scholarly HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/scholarly.min.js"></script>
+
+  </head>
+  <body prefix="schema: http://schema.org">
+    <header>
+      <h1>Scholarly HTML</h1>
+    </header>
+    <div role="contentinfo">
+      <ol>
+        <li>
+          <a href="#abstract">Abstract</a>
+        </li>
+        <li>
+          <a href="#introduction">Introduction</a>
+        </li>
+        <li>
+          <a href="#structure">Structure</a>
+          <ol type="1" style="list-style-type: none;">
+            <li>
+              <a href="#main-page"><span>3.1 </span>Main Page</a>
+            </li>
+            <li>
+              <a href="#game-options"><span>3.2 </span>Game Options</a>
+            </li>
+            <li>
+              <a href="#weapon-options"><span>3.3 </span>Weapon Options</a>
+            </li>
+            <li>
+              <a href="#other-devices"><span>3.4 </span>Other Devices</a>
+            </li>
+            <li>
+              <a href="#profile-details"><span>3.5 </span>Profile Details</a>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <a href="#user-flow">User Flow</a>
+          <ol type="1">
+            <li>
+              <a href="#goals"><span>4.1 </span>Goals and Objectives</a>
+            </li>
+            <li>
+              <a href="#pain-points"><span>4.2 </span>Pain points</a>
+            </li>
+            <li>
+              <a href="#emotional"><span>4.3 </span>Emotional Journey</a>
+            </li>
+            <li>
+              <a href="#affective"><span>4.4 </span>Affective Factors</a>
+            </li>
+            <li>
+              <a href="#design-elem"><span>4.5 </span>Design Elements</a>
+            </li>
+            <li>
+              <a href="#opp"><span>4.6 </span>Opportunities for Improvement</a>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+    <section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+      <h2><span>1. </span>Abstract</h2>
+      <p>
+       This document encapsulates the conceptualization, design, and user flow of our pioneering airsoft gaming application. Serving as an advanced digital companion to the airsoft enthusiasts, the application simplifies the process of organizing and participating in airsoft games. Users can choose from five different game types (Deathmatch, Capture the Flag, SpeedSoft, Domination, 1:1), set up teams, and define match duration, score, and other preferences. Furthermore, the application communicates with the airsoft weapon replica's internal Bluetooth unit, providing valuable information about ammo status, battery capacity, and maintenance data. The end objective of the application is to enhance the overall airsoft experience, making it more streamlined, organized, and engaging.
+      </p>
+    </section>
+    <section id="introduction" role="doc-introduction">
+      <h2><span>2. </span>Introduction</h2>
+      <p>
+        The advent of digital technology has revolutionized various domains, including the world of sports and gaming. In particular, airsoft, a recreational activity that involves competitive team play using replicas of real-world firearms, has gained immense popularity worldwide. The need for an integrated platform that streamlines the organization and execution of airsoft games is the motivation behind our mobile application.
+      </p>
+      <p>
+        The application not only serves as a tool for organizing and joining airsoft games but also integrates with the player's weapon replica, providing valuable data about its status. Designed with a strong emphasis on user experience, the app caters to users with different technology skills, ranging from beginners to advanced users. This document provides a comprehensive analysis of our application's design, user flow, and its interaction with the user, underscoring its unique features and potential pain points.
+      </p>
+    </section>
+
+    <section id="structure">
+      <!-- review? -->
+      <h2><span>3. </span>Structure</h2>
+      <p>
+        Our application comprises several key components, each contributing to a seamless airsoft gaming experience. The central features are divided into the landing page, main page, game options, weapon options, other devices, and profile details.
+      </p>
+      <section id="main-page">
+        <!-- review? -->
+        <h3><span>3.1. </span>Main Page</h3>
+        <p>
+          Upon login, the user is directed to the main page, which serves as the hub for all application interactions. It contains three central menus: game options, weapon options, and other devices, with each menu dedicated to a specific aspect of the game.
+        </p>
+      </section>
+      <section id="game-options">
+        <h3><span>3.2. </span>Game Options</h3>
+        <p>
+          The 'Game Options' menu allows users to create or join games, with the game creation providing a detailed setup process, including the game type, duration, team creation, and more.
+        </p>
+      </section>
+      <section id="weapon-options">
+        <h3><span>3.3. </span>Weapon Options</h3>
+        <p>
+          The 'Weapon Options' menu integrates with the player's weapon replica via Bluetooth, offering details like ammunition status, battery capacity and usage, damage, and maintenance needs. Users can add new weapons and view details of existing ones.
+        </p>
+      </section>
+      <section id="other-devices">
+        <h3><span>3.4. </span>Other Devices</h3>
+        <p>
+          The 'Other Devices' menu offers connectivity with additional gadgets like smartwatches or smartphones that players might use during the game. It provides information on syncing with gadgets and offers handy tips and tricks for better utilization.
+        </p>
+      </section>
+      <section id="profile-details">
+        <h3><span>3.5. </span>Profile Details</h3>
+        <p>
+          Finally, 'Profile Details' offers a personal space for users to add their photo, write a description about themselves, and see statistics from their past games, adding a personalized touch to the gaming experience.
+        </p>
+      </section>
+    </section>
+    
+    <section id="user-flow">
+      <h2><span>4. </span>User Flow</h2>
+      <p>
+        Our application is designed with a simple and intuitive flow to help airsoft players enhance their gaming experience. Starting from the landing page, users can log in/register and access a broad range of functionalities: "Game Options", "Weapon Options", and "Other Devices". Each of these sections offers in-depth features that allow users to manage their games, weapons, and connect other devices for a comprehensive gaming experience.
+      </p>
+    </section>
+    <section id="goals">
+      <h3><span>4.1. </span>Goals and Objectives</h3>
+      <p>
+        The primary goal of our app is to enable users to organize their games seamlessly and efficiently. We aim to create a platform that is seen as useful and user-friendly, enhancing the overall airsoft gaming experience.
+      </p>
+    </section>
+    <section id="pain-points">
+      <h3><span>4.2. </span>Pain Points</h3>
+      <p>
+        While our app is designed to be user-friendly, we acknowledge that new users might find certain features a bit complex initially. Especially connecting a new gadget could be perceived as a challenging task.
+      </p>
+    </section>
+    <section id="emotional">
+      <h3><span>4.3. </span>Emotional Journey</h3>
+      <p>
+        Our user's emotional journey may have highs and lows. The satisfaction of creating or joining a game and the anticipation of the airsoft match could be contrasted by potential frustrations when trying to connect new gadgets. We aim to strike a balance by continuously improving our user interface and offering support wherever needed.
+      </p>
+    </section>
+    <section id="affective">
+      <h3><span>4.4. </span>Affective Factors</h3>
+      <p>
+        The app's design ethos is simplicity and functionality. We believe that the aesthetic, with its straightforward approach and variety of features, can positively influence users' moods and attitudes, enhancing their overall experience with the application.
+      </p>
+    </section>
+    <section id="design-elem">
+      <h3><span>4.5. </span>Design Elements</h3>
+      <p>
+        Taking inspiration from the natural environments in which airsoft games often take place, we have opted for a colorful background image and warm colors for menu options. These design elements aim to evoke a sense of outdoor adventure, resonating with the users' interests and expectations.
+      </p>
+    </section>
+    <section id="opp">
+      <h3><span>4.6. </span>Opportunities for Improvement</h3>
+      <p>
+        While we are proud of our current offering, we understand the need for continuous improvement. Adding more tips and tricks to aid in using the app, especially for beginners, is one opportunity we see. Additionally, we could consider further improving the process of connecting new gadgets, making it less intimidating for our users.
+      </p>
+    </section>
+  </body>
+</html>
